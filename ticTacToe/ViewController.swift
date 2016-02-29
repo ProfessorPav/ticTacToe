@@ -8,8 +8,37 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController
+{
 
+    @IBAction func middleSquareGesture(sender: UITapGestureRecognizer) {
+    }
+    
+    @IBAction func topLeftSquareGesture(sender: UITapGestureRecognizer) {
+    }
+    
+    @IBAction func topMiddleSquareGesture(sender: UITapGestureRecognizer) {
+    }
+    
+    @IBAction func topRightSquareGesture(sender: UITapGestureRecognizer) {
+    }
+ 
+    @IBAction func middleLeftSquareGesture(sender: UITapGestureRecognizer) {
+    }
+    
+    @IBAction func middleRightSquareGesture(sender: UITapGestureRecognizer) {
+    }
+    @IBAction func bottomLeftSquareGesture(sender: UITapGestureRecognizer) {
+    }
+   
+    @IBAction func bottomMiddleSquareGesture(sender: UITapGestureRecognizer) {
+    }
+    
+    @IBAction func bottomRightSquareGesture(sender: UITapGestureRecognizer) {
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
