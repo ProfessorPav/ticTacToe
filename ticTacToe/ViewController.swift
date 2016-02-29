@@ -37,11 +37,19 @@ class ViewController: UIViewController
     @IBAction func bottomRightSquareGesture(sender: UITapGestureRecognizer) {
     }
     
+    @IBOutlet weak var topLeftLabel: UILabel!
+    @IBOutlet weak var topMiddleLabel: UILabel!
+    
+    @IBOutlet weak var topRightLabel: UILabel!
+    
+    @IBOutlet weak var middleLeftLabel: UILabel!
     
     
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

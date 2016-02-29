@@ -140,7 +140,11 @@
                     <connections>
                         <outlet property="bottomMiddleSquareGesture" destination="veH-AL-aGf" id="5oh-lr-D5B"/>
                         <outlet property="bottomRightSquareGesture" destination="up7-eP-San" id="SmN-5m-Zf7"/>
+                        <outlet property="middleLeftLabel" destination="BJg-Qd-Mk8" id="if7-ZD-aeG"/>
                         <outlet property="middleRightSquareGesture" destination="F7A-Mf-6Nd" id="Ym1-KV-dIw"/>
+                        <outlet property="topLeftLabel" destination="Awv-d5-Bko" id="VSI-WI-HaM"/>
+                        <outlet property="topMiddleLabel" destination="Azt-Ee-bA9" id="y3i-BK-EKL"/>
+                        <outlet property="topRightLabel" destination="9d0-aJ-lfd" id="4XZ-u9-kaO"/>
                         <outlet property="topRightSquareGesture" destination="OGx-bt-glp" id="GeZ-3L-u3F"/>
                     </connections>
                 </viewController>
@@ -155,10 +159,14 @@
                         <action selector="bottomMiddleSquareGesture:" destination="BYZ-38-t0r" id="TJc-uD-TjZ"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="ste-Ik-m0y"/>
+                <tapGestureRecognizer id="ste-Ik-m0y">
+                    <connections>
+                        <action selector="bottomLeftSquareGesture:" destination="BYZ-38-t0r" id="T8R-cx-ehV"/>
+                    </connections>
+                </tapGestureRecognizer>
                 <tapGestureRecognizer id="F7A-Mf-6Nd">
                     <connections>
-                        <action selector="bottomLeftSquareGesture:" destination="BYZ-38-t0r" id="GLf-ft-iX0"/>
+                        <action selector="middleRightSquareGesture:" destination="BYZ-38-t0r" id="ldW-4t-Slb"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="s91-A4-ada">
@@ -166,10 +174,14 @@
                         <action selector="middleLeftSquareGesture:" destination="BYZ-38-t0r" id="0sx-It-6WR"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="OGx-bt-glp"/>
+                <tapGestureRecognizer id="OGx-bt-glp">
+                    <connections>
+                        <action selector="topRightSquareGesture:" destination="BYZ-38-t0r" id="tvG-Al-p1L"/>
+                    </connections>
+                </tapGestureRecognizer>
                 <tapGestureRecognizer id="WrF-jm-QJZ">
                     <connections>
-                        <action selector="topRightSquareGesture:" destination="BYZ-38-t0r" id="EZA-vm-Ion"/>
+                        <action selector="topMiddleSquareGesture:" destination="BYZ-38-t0r" id="eQq-jI-u46"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="6MX-oI-pwD">
