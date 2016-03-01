@@ -138,9 +138,14 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="bottomLeftLabel" destination="CfM-z5-Uac" id="Bfn-6a-yA4"/>
+                        <outlet property="bottomMiddleLabel" destination="Nf7-pZ-OLE" id="WKE-Hg-cKu"/>
                         <outlet property="bottomMiddleSquareGesture" destination="veH-AL-aGf" id="5oh-lr-D5B"/>
+                        <outlet property="bottomRightLabel" destination="lX8-aI-G3I" id="4Ss-VU-R81"/>
                         <outlet property="bottomRightSquareGesture" destination="up7-eP-San" id="SmN-5m-Zf7"/>
+                        <outlet property="middleLabel" destination="vLe-Uj-LCT" id="ztM-M3-0Iy"/>
                         <outlet property="middleLeftLabel" destination="BJg-Qd-Mk8" id="if7-ZD-aeG"/>
+                        <outlet property="middleRightLabel" destination="4P2-f6-74i" id="TVF-us-C2n"/>
                         <outlet property="middleRightSquareGesture" destination="F7A-Mf-6Nd" id="Ym1-KV-dIw"/>
                         <outlet property="topLeftLabel" destination="Awv-d5-Bko" id="VSI-WI-HaM"/>
                         <outlet property="topMiddleLabel" destination="Azt-Ee-bA9" id="y3i-BK-EKL"/>
